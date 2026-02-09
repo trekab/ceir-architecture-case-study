@@ -3,6 +3,10 @@
 **Throughput:** ~500,000 requests per second  
 **Role:** Lead / Senior Backend Engineer (Ruby on Rails)
 
+“CEIR is a national-scale platform.
+This case study focuses on the most technically demanding subsystem:
+real-time high-throughput MNO ingestion and compliance processing.”
+
 ---
 
 ## 1. System Context
