@@ -1,0 +1,44 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill: #f5f7fa; stroke: #2c3e50; stroke-width: 2; rx: 10; ry: 10; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; fill: #2c3e50; text-anchor: middle; }
+    .arrow { stroke: #2c3e50; stroke-width: 2; marker-end: url(#arrowhead); }
+    .title { font-size: 20px; font-weight: bold; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="40" class="text title">CEIR High-Level Architecture</text>
+
+  <!-- Boxes -->
+  <rect x="250" y="80" width="300" height="50" class="box"/>
+  <text x="400" y="110" class="text">Telecom Integrations / Clients</text>
+
+  <rect x="250" y="160" width="300" height="50" class="box"/>
+  <text x="400" y="190" class="text">Rails API Layer</text>
+
+  <rect x="250" y="240" width="300" height="50" class="box"/>
+  <text x="400" y="270" class="text">PostgreSQL (OLTP)</text>
+
+  <rect x="250" y="320" width="300" height="50" class="box"/>
+  <text x="400" y="350" class="text">Kafka Event Bus</text>
+
+  <rect x="250" y="400" width="300" height="50" class="box"/>
+  <text x="400" y="430" class="text">Spark Stream Processing</text>
+
+  <rect x="250" y="480" width="300" height="50" class="box"/>
+  <text x="400" y="510" class="text">ClickHouse Analytics Store</text>
+
+  <!-- Arrows -->
+  <line x1="400" y1="130" x2="400" y2="160" class="arrow"/>
+  <line x1="400" y1="210" x2="400" y2="240" class="arrow"/>
+  <line x1="400" y1="290" x2="400" y2="320" class="arrow"/>
+  <line x1="400" y1="370" x2="400" y2="400" class="arrow"/>
+  <line x1="400" y1="450" x2="400" y2="480" class="arrow"/>
+</svg>
