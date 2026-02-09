@@ -174,7 +174,7 @@ Operational goals:
 
 ## 11. Diagram
 
-![CEIR - Focused CheckIMEI Ingestion Architecture](./ceir_checkimei_architecture.svg)
+![CEIR - Focused CheckIMEI Ingestion Architecture](ceir_checkimei_architecture.svg)
 
 ---
 
