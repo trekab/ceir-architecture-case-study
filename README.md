@@ -30,7 +30,8 @@ Key engineering requirements:
 ---
 
 ## 2. High-Level Architecture
-Telecom Integrations / Clients -> Rails API Layer -> PostgreSQL (OLTP) -> Kafka Event Bus -> Spark Stream Processing -> ClickHouse Analytics Store
+
+![CEIR Architecture](ceir_architecture.svg)
 
 ### Architectural Principles
 
